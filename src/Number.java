@@ -25,11 +25,25 @@ public class Number {
    public String convertToRoman(){
        String romanNumber="";
        int givenNumber = decimalValue;
+       boolean normalConversion;
        while(givenNumber!=0){
            for(int i=referenceSheet.length-1;i>=0;i--) {
+               normalConversion = true;
                if(givenNumber>= referenceSheet[i].getDecimal()){
-                   romanNumber += referenceSheet[i].getRoman();
-                   givenNumber -= referenceSheet[i].getDecimal();
+                   if(i!=referenceSheet.length-1){
+                       int DifferenceFromUpperReference = referenceSheet[i + 1].getDecimal() - givenNumber;
+                       if(DifferenceFromUpperReference%5!=0 && DifferenceFromUpperReference %10==0 ||DifferenceFromUpperReference==1){
+                           String prefix = new Number(DifferenceFromUpperReference).convertToRoman();
+                           romanNumber += (prefix + referenceSheet[i+1].getRoman());
+                           givenNumber -= (referenceSheet[i+1].getDecimal() - DifferenceFromUpperReference);
+                           normalConversion=false;
+                       }
+                   }
+                   if(normalConversion==true)
+                   {
+                        romanNumber += referenceSheet[i].getRoman();
+                        givenNumber -= referenceSheet[i].getDecimal();
+                   }
                }
            }
        }

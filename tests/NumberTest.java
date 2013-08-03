@@ -21,13 +21,24 @@ public class NumberTest {
         assertEquals("D",new Number(500).convertToRoman());
         assertEquals("M",new Number(1000).convertToRoman());
     }
-
+    @Test
     public void testIIIisRomanNumberForThree(){
         assertEquals("III",new Number(3).convertToRoman());
     }
-
+    @Test
     public void testXVisRomanNumberForFifteen(){
         assertEquals("XV",new Number(15).convertToRoman());
     }
 
+    @Test
+    public void testIVisRomanNumberForFour() throws Exception {
+        assertEquals("IV",new Number(4).convertToRoman());
+
+    }
+
+    @Test
+    public void testXIXisRomanNumberForNineteen() throws Exception {
+        assertEquals("XIX",new Number(19).convertToRoman());
+
+    }
 }

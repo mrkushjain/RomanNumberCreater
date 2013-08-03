@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="845b31a5-76be-4b53-a129-c2c30a250753" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Number.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/NumberTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RomanNumberCreater.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Number.java" afterPath="$PROJECT_DIR$/src/Number.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/NumberTest.java" afterPath="$PROJECT_DIR$/tests/NumberTest.java" />
     </list>
     <ignored path="RomanNumberCreater.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="845b31a5-76be-4b53-a129-c2c30a250753" time="1375466350872" ignored="false" />
-    <file path="/Number.java" changelist="845b31a5-76be-4b53-a129-c2c30a250753" time="1375500712122" ignored="false" />
+    <file path="/Number.java" changelist="845b31a5-76be-4b53-a129-c2c30a250753" time="1375502998751" ignored="false" />
     <file path="/fragment.java" changelist="845b31a5-76be-4b53-a129-c2c30a250753" time="1375499574507" ignored="false" />
-    <file path="/NumberTest.java" changelist="845b31a5-76be-4b53-a129-c2c30a250753" time="1375501115993" ignored="false" />
+    <file path="/NumberTest.java" changelist="845b31a5-76be-4b53-a129-c2c30a250753" time="1375503171181" ignored="false" />
     <file path="/DecimalRomanReference.java" changelist="845b31a5-76be-4b53-a129-c2c30a250753" time="1375500171041" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,10 +72,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Number.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Number.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="17" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0">
+            <state line="13" column="65" selection-start="349" selection-end="349" vertical-scroll-proportion="0.028301887">
               <folding />
             </state>
           </provider>
@@ -91,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NumberTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/NumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="3" selection-start="967" selection-end="967" vertical-scroll-proportion="0.8773585">
+            <state line="40" column="60" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -232,7 +231,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumberTest">
+  <component name="RunManager" selected="JUnit.NumberTest.testXIXisRomanNumberForNineteen">
     <configuration default="false" name="NumberTest.testBasicRomanNumbersIsCorrect" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="RomanNumberCreater" />
@@ -271,6 +270,75 @@
       <option name="MAIN_CLASS_NAME" value="NumberTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumberTest.testXVisRomanNumberForFifteen" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="RomanNumberCreater" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberTest" />
+      <option name="METHOD_NAME" value="testXVisRomanNumberForFifteen" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumberTest.testIVisRomanNumberForFour" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="RomanNumberCreater" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberTest" />
+      <option name="METHOD_NAME" value="testIVisRomanNumberForFour" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumberTest.testXIXisRomanNumberForNineteen" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="RomanNumberCreater" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberTest" />
+      <option name="METHOD_NAME" value="testXIXisRomanNumberForNineteen" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -376,14 +444,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.NumberTest.testBasicRomanNumbersIsCorrect" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.NumberTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NumberTest.testXVisRomanNumberForFifteen" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NumberTest.testIVisRomanNumberForFour" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.NumberTest.testXIXisRomanNumberForNineteen" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NumberTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NumberTest.testBasicRomanNumbersIsCorrect" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NumberTest.testXIXisRomanNumberForNineteen" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NumberTest.testIVisRomanNumberForFour" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NumberTest.testXVisRomanNumberForFifteen" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NumberTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.NumberTest.testBasicRomanNumbersIsCorrect" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -503,19 +577,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="17" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/NumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="3" selection-start="967" selection-end="967" vertical-scroll-proportion="0.8773585">
+        <state line="40" column="60" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="65" selection-start="349" selection-end="349" vertical-scroll-proportion="0.028301887">
+          <folding />
         </state>
       </provider>
     </entry>
